@@ -5,7 +5,7 @@ draft: false
 ---
 
 <style>
-.page { /* no explicit margins; body handles global margins */ }
+.page { }
 
 .paragraph,
 .reversed-paragraph {
