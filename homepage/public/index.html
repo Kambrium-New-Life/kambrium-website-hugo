@@ -3,9 +3,9 @@
   lang="en"
   dir="ltr"
   class="scroll-smooth"
-  data-default-appearance="light"
+  data-default-appearance="dark"
   data-auto-appearance="false"><head>
-	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=41053&amp;path=livereload" data-no-instant defer></script>
+	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
   
     <meta http-equiv="content-language" content="en">
@@ -23,7 +23,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:41053/">
+  <link rel="canonical" href="http://localhost:1313/">
   
       <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Kambrium - New Life" />
   
@@ -100,7 +100,7 @@
   
 
   
-  <meta property="og:url" content="http://localhost:41053/">
+  <meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="Kambrium - New Life">
   <meta property="og:title" content="Kambrium - New Life">
   <meta property="og:description" content="A new way to live life">
@@ -116,11 +116,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "@id": "http:\/\/localhost:41053\/",
+    "@id": "http:\/\/localhost:1313\/",
     "name": "Kambrium - New Life",
     
     "inLanguage": "en",
-    "url": "http:\/\/localhost:41053\/",
+    "url": "http:\/\/localhost:1313\/",
     
     "publisher" : {
       "@type": "Person",
@@ -478,26 +478,42 @@
     </div>
   </header>
   <section class="prose dark:prose-invert w-full"><style>
-  .split-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 2.5rem 0;
+.page { /* no explicit margins; body handles global margins */ }
+
+.paragraph,
+.reversed-paragraph {
+  display: flex;
+  gap: 4%;
+  align-items: flex-start;
+}
+
+.text {
+  flex: 0 0 40%;
+}
+
+.media {
+  flex: 0 0 56%;
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .paragraph,
+  .reversed-paragraph {
+    flex-direction: column;
+    gap: 6%;
   }
-  .split-row.reverse { flex-direction: row-reverse; }
-  .split-row .text, .split-row .media { flex: 1 1 0; }
-  .split-row img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  @media (max-width: 80%) {
-    .split-row, .split-row.reverse { flex-direction: column; }
-  }
+  .text,
+  .media { flex-basis: 100%; width: 100%; }
+}
 </style>
-<div class="split-row">
+<div class="page">
+<div class="paragraph">
   <div class="text">
     <h2>What is Kambrium?</h2>
     <p>
@@ -508,7 +524,7 @@
     <img src="/images/sample-1.jpeg" alt="sample-picture">
   </div>
 </div>
-<div class="split-row reverse">
+<div class="reversed-paragraph">
   <div class="media">
     <img src="/images/sample-2.jpeg" alt="sample-picture">
   </div>
@@ -519,7 +535,7 @@
     </p>
   </div>
 </div>
-<div class="split-row">
+<div class="paragraph">
   <div class="text">
     <h2>What does Kambrium mean?</h2>
     <p>
@@ -530,8 +546,7 @@
     <img src="/images/sample-3.jpeg" alt="sample-picture">
   </div>
 </div>
-<!-- Optional: vierter Abschnitt. Fügen Sie hier einen Bildpfad ein, wenn vorhanden -->
-<div class="split-row reverse">
+<div class="reversed-paragraph">
   <div class="media">
     <img src="/images/sample-4.jpeg" alt="sample-picture">
   </div>
@@ -541,7 +556,9 @@
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
-</div></section>
+</div>
+</div>
+</section>
 </article>
 <section>
   
@@ -609,7 +626,7 @@
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
-  data-url="http://localhost:41053/">
+  data-url="http://localhost:1313/">
   <div
     id="search-modal"
     class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">

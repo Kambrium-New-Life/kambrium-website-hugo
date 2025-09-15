@@ -5,27 +5,44 @@ draft: false
 ---
 
 <style>
-  .split-row {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    margin: 2.5rem 0;
+.page { /* no explicit margins; body handles global margins */ }
+
+.paragraph,
+.reversed-paragraph {
+  display: flex;
+  gap: 4%;
+  align-items: flex-start;
+}
+
+.text {
+  flex: 0 0 40%;
+}
+
+.media {
+  flex: 0 0 56%;
+}
+
+.media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (max-width: 900px) {
+  .paragraph,
+  .reversed-paragraph {
+    flex-direction: column;
+    gap: 6%;
   }
-  .split-row.reverse { flex-direction: row-reverse; }
-  .split-row .text, .split-row .media { flex: 1 1 0; }
-  .split-row img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  @media (max-width: 80%) {
-    .split-row, .split-row.reverse { flex-direction: column; }
-  }
+  .text,
+  .media { flex-basis: 100%; width: 100%; }
+}
 </style>
 
-<div class="split-row">
+<div class="page">
+
+<div class="paragraph">
   <div class="text">
     <h2>What is Kambrium?</h2>
     <p>
@@ -37,7 +54,7 @@ draft: false
   </div>
 </div>
 
-<div class="split-row reverse">
+<div class="reversed-paragraph">
   <div class="media">
     <img src="/images/sample-2.jpeg" alt="sample-picture">
   </div>
@@ -49,7 +66,7 @@ draft: false
   </div>
 </div>
 
-<div class="split-row">
+<div class="paragraph">
   <div class="text">
     <h2>What does Kambrium mean?</h2>
     <p>
@@ -61,8 +78,7 @@ draft: false
   </div>
 </div>
 
-<!-- Optional: vierter Abschnitt. Fügen Sie hier einen Bildpfad ein, wenn vorhanden -->
-<div class="split-row reverse">
+<div class="reversed-paragraph">
   <div class="media">
     <img src="/images/sample-4.jpeg" alt="sample-picture">
   </div>
@@ -72,4 +88,6 @@ draft: false
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
     </p>
   </div>
+</div>
+
 </div>
