@@ -50,13 +50,13 @@ draft: false
     </p>
   </div>
   <div class="media">
-    <img src="/images/sample-1.jpeg" alt="sample-picture">
+    <img src="/kambrium-website-hugo/images/sample-1.jpeg" alt="sample-picture">
   </div>
 </div>
 
 <div class="reversed-paragraph">
   <div class="media">
-    <img src="/images/sample-2.jpeg" alt="sample-picture">
+    <img src="/kambrium-website-hugo/images/sample-2.jpeg" alt="sample-picture">
   </div>
   <div class="text">
     <h2>Why do we need Kambrium?</h2>
@@ -74,13 +74,13 @@ draft: false
     </p>
   </div>
   <div class="media">
-    <img src="/images/sample-3.jpeg" alt="sample-picture">
+    <img src="/kambrium-website-hugo/images/sample-3.jpeg" alt="sample-picture">
   </div>
 </div>
 
 <div class="reversed-paragraph">
   <div class="media">
-    <img src="/images/sample-4.jpeg" alt="sample-picture">
+    <img src="/kambrium-website-hugo/images/sample-4.jpeg" alt="sample-picture">
   </div>
   <div class="text">
     <h2>What values does Kambrium represent?</h2>
