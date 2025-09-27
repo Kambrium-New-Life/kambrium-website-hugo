@@ -16,19 +16,24 @@
   weight = 10
 
 [[main]]
+  name = "Manifest"
+  pageRef = "manifest"
+  weight = 20
+
+[[main]]
   name = "Blog"
   pageRef = "posts"
-  weight = 20
+  weight = 30
 
 [[main]]
   name = "About"
   pageRef = "/about"
-  weight = 30
+  weight = 40
 
 [[main]]
   name = "Contact"
   pageRef = "/contact"
-  weight = 40
+  weight = 50
 
 #[[main]]
 #  name = "example sub-menu 1"

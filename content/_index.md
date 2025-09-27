@@ -83,10 +83,22 @@ draft: false
     <img src="/kambrium-website-hugo/images/sample-4.jpeg" alt="sample-picture">
   </div>
   <div class="text">
+    <h2>What does Kambrium want to do?</h2>
+    <p>
+      Initiators of “Kambrium” aim to create livable conditions for humans and nature by developing region‑tailored, earth‑and‑straw‑bale houses that promote health and peace. They advocate natural farming to produce clean, nutritious food. A new, socially fair economic system will produce useful, earth‑preserving goods and support businesses that spread these principles. Training in natural medicine—herbs, frequencies, energy work—will empower healers. Sustainable landscapes will harmonize human activity with wildlife, offering recreation. A new school system will teach children the interconnections of nature. Libraries, online courses, and publishers will disseminate this knowledge to all, ensuring equity and resilience for future generations and communities worldwide.
+    </p>
+  </div>
+</div>
+
+<div class="paragraph">
+  <div class="text">
     <h2>What values does Kambrium represent?</h2>
     <p>
       A new civilization brings with it completely new challenges! The profit-oriented thinking of previous economic methods has not proven successful! Now, instead of focusing exclusively on self-interest, we must also consider the promotion and protection of all of creation, so that we learn to manage our economy in a way that harms no one, benefits everyone, and preserves the environment. People help and support each other at every level and work together with nature! All knowledge is passed on and must be accessible to everyone who strives for it! The entire life and work of human beings is based on cooperation! This is how we build a New Earth!
     </p>
+  </div>
+  <div class="media">
+    <img src="/kambrium-website-hugo/images/sample-5.jpeg" alt="sample-picture">
   </div>
 </div>
 
